@@ -18,7 +18,7 @@ const CartItem = ({ item, itemIndex }) => {
       <div className="flex md:w-[550px]  w-full justify-evenly gap-10 border-b-2 border-black py-3 overflow-hidden">
 
         <div className="md:h-[180px] w-[150px]">
-          <img className="md:h-full" src={item.image} />
+          <img className="md:h-full" alt={item.image} src={item.image} />
         </div>
 
         <div className="flex flex-col items-center gap-y-10">
